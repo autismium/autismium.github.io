@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой браузер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="product_logo_128.png" data-i18n-attr="alt" data-i18n-key="logoAlt" alt="Логотип">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" data-i18n="navHome">Главная</a></li>
+                    <li><a href="#about" data-i18n="navAbout">О проекте</a></li>
+                    <li><a href="#features" data-i18n="navFeatures">Возможности</a></li>
+                    <li><a href="#download" data-i18n="navDownload">Скачать</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switcher">
+                <button data-lang="ru" class="active">RU</button>
+                <button data-lang="en">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 data-i18n="heroTitle">Название браузера</h1>
+                <p data-i18n="heroDescription">Краткое описание</p>
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <div class="container">
+                <h2 data-i18n="aboutTitle">О проекте</h2>
+                <p data-i18n="aboutText">Здесь будет информация о вашем браузере.</p>
+            </div>
+        </section>
+
+        <section id="features" class="content">
+            <div class="container">
+                <h2 data-i18n="featuresTitle">Возможности</h2>
+                <ul>
+                    <li>Функция 1</li>
+                    <li>Функция 2</li>
+                    <li>Функция 3</li>
+                    <li>Функция 4</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="download" class="content">
+            <div class="container">
+                <h2 data-i18n="downloadTitle">Скачать</h2>
+                <p data-i18n="downloadText"><a href="https://github.com/BlackSystemCoder/autismium/releases/download/1.0/autismium.exe">1.0 Windows x64</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footerText"></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+</body>
+</html>

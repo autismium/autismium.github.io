@@ -1,0 +1,40 @@
+const translations = {
+    ru: {
+        title: "Autismium",
+        logoAlt: "Логотип",
+        navHome: "Главная",
+        navAbout: "О проекте",
+        navFeatures: "Возможности",
+        navDownload: "Скачать",
+        heroTitle: "Autismium",
+        heroDescription: "Browser for boys and girls with autism",
+        aboutTitle: "О проекте",
+        aboutText: "Быстрый, удобный и безопасный браузер на базе Chromium",
+        featuresTitle: "Возможности",
+        feature1: "Безопасный и приватный",
+        feature2: "Восстановлена поддержка Manifest V2 расширений",
+        feature3: "Экономия памяти",
+        feature4: "И многое другое",
+        downloadTitle: "Скачать",
+        footerText: "© 2026 Autismium. Все права защищены."
+    },
+    en: {
+        title: "Autismium",
+        logoAlt: "Logo",
+        navHome: "Home",
+        navAbout: "About",
+        navFeatures: "Features",
+        navDownload: "Download",
+        heroTitle: "Autismium",
+        heroDescription: "Browser for boys and girls with autism",
+        aboutTitle: "About",
+        aboutText: "Fast, convenient and secure browser based on Chromium",
+        featuresTitle: "Features",
+        feature1: "Safe and private",
+        feature2: "Restored support for Manifest V2 extensions",
+        feature3: "Memory saving",
+        feature4: "And more",
+        downloadTitle: "Download",
+        footerText: "© 2026 Autismium. All rights reserved."
+    }
+};
